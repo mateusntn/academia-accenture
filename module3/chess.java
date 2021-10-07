@@ -47,6 +47,7 @@ public class chess {
 		} while (exit == false);
 		System.out.println("There is already a piece in the chosen position!");
 		System.out.println("Leaving the game...");
+		scanner.close();
 	}
 	
 	// --------------Impress�o do Tabuleiro---------------------------------------

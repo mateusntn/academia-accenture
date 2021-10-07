@@ -28,5 +28,6 @@ public class stadium {
 
 
         System.out.println("Total: "+ totalQuantity +" tickets - R$"+ totalValue);
+        scanner.close();
     }
 }
