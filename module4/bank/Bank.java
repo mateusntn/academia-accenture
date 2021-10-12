@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Main {
+public class Bank {
     public static void main(String[] args) {
         Client client1 = new Client("Mateus", "182.112.462-80", "Antonio");
         Account account1 = new Account(1, client1, 784, LocalDate.now());
