@@ -1,10 +1,9 @@
 public class ArithmeticExceptionActivity {
 	//1 - Type main method and call catchMe with 10 and 0
-	public static void main(String[] args) {		
-		ArithmeticExceptionActivity obj=new ArithmeticExceptionActivity();
-		obj.catchMe(10,0);
+	public static void main(String[] args) {
+		catchMe(10,0);
 		System.out.println("==================================");
-		obj.catchMe(10, 2);
+		catchMe(10, 2);
 	}
 
 	static void catchMe(int num1, int num2)
