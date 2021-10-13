@@ -7,7 +7,7 @@ public class Exemplos {
         ArrayList<String> cardapio = new ArrayList<>();
         cardapio.add("Pizza");
         cardapio.add("Refrigerante");
-        cardapio.add("Batatinha frita");     
+        cardapio.add(0 ,"Batatinha frita");     
                
 
         for(String item: cardapio) {
@@ -36,6 +36,7 @@ public class Exemplos {
         for(Produto item: estoque) {
             total += item.getQuantidade();
         }
+        
         JOptionPane.showMessageDialog(null, "Total de produtos em estoque: " + total);
     }
 }
