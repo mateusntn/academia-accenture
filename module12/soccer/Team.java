@@ -22,7 +22,10 @@ public class Team {
 
     public ArrayList<Player> RelatePlayers()
     {
-        List players = Players.stream().sorted(Comparator.comparing(Player::getQuality)).limit(11).collect(Collectors.toList());
+        List players = Players.stream()
+                                .sorted(Comparator.comparing(Player::getQuality))
+                                .limit(11)
+                                .collect(Collectors.toList());
         Related = new ArrayList<Player>(players);
         return Related;
     }
